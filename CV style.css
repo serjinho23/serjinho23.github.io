@@ -1,0 +1,175 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 1px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    width: 1064px;
+    flex-flow: column;
+    justify-content: center;
+    background-color: rgb(221, 228, 233);
+    border-radius: 50px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 0;
+}
+.photo{
+    display: flex;
+    flex: 1;
+}
+#me{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    align-items: flex-start;
+    border-radius: 50px;
+}
+.info{
+    display: flex;
+    flex: 2;
+    flex-flow: column;
+    align-items: center;
+}
+.name{
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+span{
+    font-weight: bold;
+}
+.about{
+    align-self: flex-start;
+    text-align: justify;
+    margin-left: 100px;
+}
+.contacts{
+   display: flex;
+   align-items: center; 
+   justify-content: center;
+   align-items: center;
+}
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(9, 60, 97);
+    color: blanchedalmond;
+    border-radius: 50px;
+    align-items: center;
+}
+.cont1{
+    text-align: start;
+    padding-right: 50px;
+}
+.social{
+    text-align: start;
+    padding-left: 50px;
+}
+a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+a:hover{
+    color: rgb(187, 180, 170);
+}
+.section1{
+    display: flex;
+    margin: 10px;
+}
+.skill{
+    width: 29%;
+    border-right: solid;
+    border-color: black;
+    padding: 20px;
+}
+.exp{
+    margin: 10px;
+    width: 60%;
+    display: flex;
+    flex-flow: column;
+    padding-left: 20px;
+}
+.lang{
+    text-align: start;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+#conth3{
+    margin-right: 50px;
+}
+li.skill-bar{
+    list-style-type: "\2611";
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+.work{
+    text-align: center;
+    border-top: solid;
+    border-bottom: solid;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 15px;
+}
+.pad{
+    padding: 5px;
+}
+details > summary {
+list-style: none;
+}
+details summary::-webkit-details-marker {
+display: none
+}
+#jira{
+width: 250px;
+}
+#jira:hover{
+opacity: 60%;
+background: rgba(0, 0, 0, 0.5);
+}
+#postman{
+width: 250px;
+}
+#postman:hover{
+opacity: 60%;
+background: rgba(0, 0, 0, 0.5)
+}
+#charles{
+width: 250px;
+}
+#charles:hover{
+opacity: 60%;
+background: rgba(0, 0, 0, 0.5)
+}
+summary:hover{
+opacity: 60%;
+cursor: pointer;
+}
+.logos_soc{
+width: 18px;
+padding-right: 5px;
+}
+summary{
+text-decoration: underline;
+}
+.post{
+width: 250px;
+}
+#api_nasa{
+color: black;
+text-decoration: underline;
+}
+#github{
+text-decoration: underline;
+color: black;
+}
